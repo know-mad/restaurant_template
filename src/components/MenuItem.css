@@ -1,0 +1,122 @@
+.add-to-cart {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    justify-content: center;
+    /* padding: 0.5em; */
+    align-items: center;
+    height: 20%;
+    width: 100%;
+    /* background: blue; */
+}
+
+.add-to-cart form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 100%; */
+    width: 100%;
+    margin: 0;
+    padding: 0 0.5em 0;
+    /* background: gold; */
+}
+
+.add-to-cart input {
+    height: 90%;
+    width: 20%;
+    margin: 0;
+    /* border: none; */
+}
+
+.add-to-cart button {
+    height: 90%;
+    width: 40%;
+    font-size: 0.85rem;
+    margin: 0;
+    font-weight:400;
+    border-radius: 0.25em;
+    background: gold;
+    color: #000;
+    border: none;
+}
+
+/* .add-to-cart-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5em;
+    height: 100%;
+    width: 60%;
+    background: purple;
+} */
+
+/* .add-to-cart-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    height: 100%;
+    width: 40%;
+    background: #DF2332;
+    color: #fff;
+    cursor: pointer;
+} */
+
+.menu-item-container {
+    display: flex;
+    flex-direction: row;
+    height: 10em;
+    width: 30%;
+    /* background: lightgrey; */
+    border: 1px solid #DF2332;
+    border-radius: 0.25em;
+    margin: 1em;
+}
+
+.item-photo {
+    height: 100%;
+    width: 30%;
+    /* background: rebeccapurple; */
+}
+
+.item-photo img {
+    height: 100%;
+    width: 100%;
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    /* background: crimson; */
+}
+
+.item-label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    height: 20%;
+    width: 100%;
+    color: #fff;
+    background: #DF2332;
+}
+
+.item-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0.5em;
+    height: 60%;
+    width: 100%;
+    /* background: green; */
+}
+
+.item-description p {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}

@@ -8,40 +8,49 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
 import Header from "./header"
 import "./layout.css"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+  // const data = useStaticQuery(graphql`
+  //   query SiteTitleQuery {
+  //     site {
+  //       siteMetadata {
+  //         title
+  //       }
+  //     }
+  //   }
+  // `)
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
+      <Header />
+      <div className='container'>
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <footer>
+          <div className='footer-top'>
+            <div className='footer-top__info'>
+              <p style={{fontSize: `1.5rem`, fontWeight: `bold`}}>CONTACT</p>
+              <p>Tel: (555) 555-7024</p>
+              <p>Email: restaurant@email.com</p>
+              <p>Join our team</p>
+            </div>
+            <div className='footer-top__info'>
+              <p style={{fontSize: `1.5rem`, fontWeight: `bold`}}>RESTAURANT HOURS</p>
+              <p><span style={{fontWeight: `bold`}}>Mon - Fri:</span> 9am - 10pm</p>
+              <p><span style={{fontWeight: `bold`}}>Sat - Sun:</span> 9am - 11pm</p>
+            </div>
+            <div className='footer-top__info'>
+              <p style={{fontSize: `1.5rem`, fontWeight: `bold`}}>SOCIAL MEDIA</p>
+              <p>facebook</p>
+              <p>instagram</p>
+              <p>yelp</p>
+              <p>tripadvisor</p>
+            </div>
+          </div>
+          <div className='footer-bottom'>
+            <p>Copyright © {new Date().getFullYear()} Restaurant, All right reserved.</p>
+          </div>
         </footer>
       </div>
     </>
@@ -51,5 +60,6 @@ const Layout = ({ children }) => {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
+
 
 export default Layout

@@ -1,0 +1,98 @@
+.testimonials-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+.testimonials-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+}
+
+.testimonial-photo {
+    height: 20em;
+    width: 30em;
+    box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.5);
+    /* background-color: grey;
+    border: 1px solid #000; */
+}
+
+.testimonial-photo img {
+    height: 100%;
+}
+
+.pagination-dots {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.5em;
+    width: 6em;
+    margin: 1em;
+    /* background-color: green; */
+}
+
+.dot {
+    height: 1em;
+    width: 1em;
+    border-radius: 5em;
+    border: 1px solid #000;
+}
+
+.testimonials-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    padding: 2em;
+    color: #fff;
+    font-size: 1.25rem;
+    /* background-color: green; */
+}
+
+.testimonial-cta-buttons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 4em;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+.yelp-review__button  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    height: 3em;
+    width: 15em;
+    font-size: 1rem;
+    border-radius: 5rem;
+    background: #000;
+    margin-right: 2em;
+}
+
+.google-review__button  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    height: 3em;
+    width: 15em;
+    font-size: 1rem;
+    border-radius: 5rem;
+    background: #FFC700;
+}
