@@ -13,7 +13,8 @@ const SuccessPage = () => {
     return (
         <Layout>
             <div className='success-page-container'>
-                <h1>Thank You for your Purchase</h1>
+                <p style={{color: `#DF2332`}}>[ Business Logo Here ]</p>
+                <h1>We Thank You For Your Purchase</h1>
                 <p>An email receipt has been sent to your inbox.</p>
             </div>
         </Layout>

@@ -14,6 +14,9 @@ import bigFacebook from '../images/facebook-big-logo.svg'
 import bigInstagram from '../images/instagram-big-logo.svg'
 import bigYelp from '../images/yelp-big-logo.svg'
 import bigTripadvisor from '../images/tripadvisor-big-logo.svg'
+import doordash from '../images/doordash-logo.svg'
+import uber from '../images/uber-eats-logo.svg'
+import grubhub from '../images/grubhub-logo.svg'
 
 const IndexPage = () => (
   <Layout>
@@ -33,6 +36,12 @@ const IndexPage = () => (
               combinations, unique sauces, and delicious offerings.
             </p>
             <Link className='hero-link' to='/order-online/'>place an order</Link> 
+            <div className='mobile-delivery-providers'>
+              <p>Or Get It Delivered</p>
+              <img style={{width: `80%`, marginLeft: `2em`}} src={doordash} alt='logo'/>
+              <img style={{width: `80%`, marginLeft: `3em`}} src={uber} alt='logo'/>
+              <img style={{width: `50%`}} src={grubhub} alt='logo'/>
+            </div>
         </div>
       </div>
     </section>
@@ -41,7 +50,7 @@ const IndexPage = () => (
       <div style={{marginTop: `4em`}} className='info-section'>
         <div className='info-section-top'>
           <p>[subheading]</p>
-          <p style={{fontSize: `4rem`, fontWeight: `bold`}}>Welcome to <span style={{color: `#DF2332`}}>[Restaurant]</span></p>
+          <p>Welcome to <span style={{color: `#DF2332`}}>[Restaurant]</span></p>
         </div>
         <div className='info-section-bottom'>
           <div className='info-section-bottom-left'>
