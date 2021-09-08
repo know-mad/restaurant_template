@@ -72,7 +72,7 @@ const IndexPage = () => (
     <section>
       <div  style={{backgroundColor: `#000`}} className='info-section'>
         <div className='info-section-top'>
-          <p style={{color: `#fff`, fontSize: `4rem`, fontWeight: `bold`}}>From our kitchen with <span style={{color: `#DF2332`}}>love</span></p>
+          <p style={{color: `#fff`}}>From our kitchen with <span style={{color: `#DF2332`}}>love</span></p>
         </div>
         <div className='info-section-bottom'>
           <div className='info-section-bottom-left'>
@@ -93,11 +93,11 @@ const IndexPage = () => (
     <section>
       <div className='info-section'>
         <div className='info-section-top'>
-          <p style={{fontSize: `4rem`, fontWeight: `bold`}}>We would love to have <span style={{color: `#DF2332`}}>you</span> over</p>
+          <p>We would love to have <span style={{color: `#DF2332`}}>you</span> over</p>
         </div>
         <div className='info-section-bottom'>
           <div className='info-section-bottom-left'>
-            <h2>Conveniently located at:</h2>
+            <p>Conveniently located at:</p>
             <p style={{fontWeight: `bold`}}>7690 Dorchester BLVD.
             <br/>
             Suite #104
@@ -137,7 +137,7 @@ const IndexPage = () => (
     <section>
       <div style={{backgroundColor: `#DF2332`}} className='info-section'>
         <div className='info-section-top'>
-          <p style={{fontSize: `4rem`, fontWeight: `bold`}}>Our customers <span style={{color: `#fff`}}>love us</span> and so will you</p>
+          <p>Our customers <span style={{color: `#fff`}}>love us</span> and so will you</p>
         </div>
         <div className='info-section-bottom'>
           <Testimonials />
@@ -149,7 +149,7 @@ const IndexPage = () => (
       <div style={{marginTop: `4em`}} className='info-section'>
         <div className='info-section-top'>
           <p>WE CATER!!!</p>
-          <p style={{fontSize: `4rem`, fontWeight: `bold`}}>Let <span style={{color: `#DF2332`}}>[Restaurant]</span> cater your next event</p>
+          <p>Let <span style={{color: `#DF2332`}}>[Restaurant]</span> cater your next event</p>
         </div>
         <div className='info-section-bottom'>
           <div className='info-section-bottom-left'>

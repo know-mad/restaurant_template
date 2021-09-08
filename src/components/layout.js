@@ -30,18 +30,17 @@ const Layout = ({ children }) => {
         <footer>
           <div className='footer-top'>
             <div className='footer-top__info'>
-              <p style={{fontSize: `1.5rem`, fontWeight: `bold`}}>CONTACT</p>
+              <h4>CONTACT</h4>
               <p>Tel: (555) 555-7024</p>
               <p>Email: restaurant@email.com</p>
-              <p>Join our team</p>
             </div>
             <div className='footer-top__info'>
-              <p style={{fontSize: `1.5rem`, fontWeight: `bold`}}>RESTAURANT HOURS</p>
+              <h4>RESTAURANT HOURS</h4>
               <p><span style={{fontWeight: `bold`}}>Mon - Fri:</span> 9am - 10pm</p>
               <p><span style={{fontWeight: `bold`}}>Sat - Sun:</span> 9am - 11pm</p>
             </div>
             <div className='footer-top__info'>
-              <p style={{fontSize: `1.5rem`, fontWeight: `bold`}}>SOCIAL MEDIA</p>
+              <h4>SOCIAL MEDIA</h4>
               <p>facebook</p>
               <p>instagram</p>
               <p>yelp</p>
@@ -50,6 +49,7 @@ const Layout = ({ children }) => {
           </div>
           <div className='footer-bottom'>
             <p>Copyright © {new Date().getFullYear()} Restaurant, All right reserved.</p>
+            <p>Built By: David Velez</p>
           </div>
         </footer>
       </div>

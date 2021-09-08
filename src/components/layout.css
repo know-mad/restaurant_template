@@ -22,7 +22,8 @@ a {
 footer {
   display: flex;
   flex-direction: column;
-  height: 20em;
+  /* height: 20em; */
+  height: 42em;
   width: 100%;
   background-color: #000;
   color: #fff;
@@ -38,25 +39,36 @@ footer {
 
 .footer-top {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  /* flex-direction: row; */
+  flex-direction: column;
+  /* justify-content: space-around; */
   align-items: center;
-  height: 90%;
+  height: 85%;
   width: 100%;
   /* background-color: red; */
 }
 
 .footer-top__info {
-  padding: 2.5em;
-  height: 100%;
-  width: 33%;
+  /* padding: 2.5em; */
+  padding: 1em;
+  /* height: 100%;
+  width: 33%; */
+  height: 30%;
+  width: 100%;
   /* background-color: yellow; */
 }
 
 .footer-bottom {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 10%;
+  height: 15%;
   width: 100%;
+  text-align: center;
+  background: #DF2332;
+}
+
+.footer-bottom p {
+  margin: 0.25em;
 }

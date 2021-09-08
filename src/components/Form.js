@@ -3,8 +3,8 @@ import './Form.css'
 
 const Form = () => (
   <div className='form-container'>
-  <h2 style={{margin: '0', fontSize: '1.95rem', color: '#000000'}}>Free Estimates</h2>
-  <p style={{margin: '0', color: '#000000', fontSize: '0.9rem'}}>it's our pleasure to work on your home transformation</p>
+  <h3 style={{margin: '0.25em', color: '#000000'}}>CATERING REQUEST</h3>
+  <p style={{margin: '0.5em', color: '#000000', fontSize: '0.85rem'}}>it's our pleasure to cater your next event.</p>
   <form
   name="contact"
   method="post"
