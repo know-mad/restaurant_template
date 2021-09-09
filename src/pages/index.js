@@ -38,9 +38,15 @@ const IndexPage = () => (
             <Link className='hero-link' to='/order-online/'>place an order</Link> 
             <div className='mobile-delivery-providers'>
               <p>Or Get It Delivered</p>
-              <img style={{width: `80%`, marginLeft: `2em`}} src={doordash} alt='logo'/>
-              <img style={{width: `80%`, marginLeft: `3em`}} src={uber} alt='logo'/>
-              <img style={{width: `50%`}} src={grubhub} alt='logo'/>
+              <div className='link-button'>
+                <img style={{width: `80%`, marginLeft: `2em`, marginTop: `0.25em`}} src={doordash} alt='logo'/>
+              </div>
+              <div className='link-button'>
+                <img style={{width: `60%`, marginLeft: `2em`, marginTop: `0.25em`}} src={uber} alt='logo'/>
+              </div>
+              <div className='link-button'>
+                <img style={{width: `40%`}} src={grubhub} alt='logo'/>
+              </div>
             </div>
         </div>
       </div>

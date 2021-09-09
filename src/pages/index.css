@@ -207,4 +207,18 @@
     /* display: inherit;  */
 }
 
+.link-button {
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      color: #000;
+      height: 3em;
+      width: 15em;
+      font-size: 1rem;
+      border-radius: 5rem;
+      background: #DF2332;
+}
+
 
