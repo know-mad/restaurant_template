@@ -30,17 +30,17 @@ const Layout = ({ children }) => {
         <footer>
           <div className='footer-top'>
             <div className='footer-top__info'>
-              <h4>CONTACT</h4>
+              <h3>CONTACT</h3>
               <p>Tel: (555) 555-7024</p>
               <p>Email: restaurant@email.com</p>
             </div>
             <div className='footer-top__info'>
-              <h4>RESTAURANT HOURS</h4>
+              <h3>RESTAURANT HOURS</h3>
               <p><span style={{fontWeight: `bold`}}>Mon - Fri:</span> 9am - 10pm</p>
               <p><span style={{fontWeight: `bold`}}>Sat - Sun:</span> 9am - 11pm</p>
             </div>
             <div className='footer-top__info'>
-              <h4>SOCIAL MEDIA</h4>
+              <h3>SOCIAL MEDIA</h3>
               <p>facebook</p>
               <p>instagram</p>
               <p>yelp</p>

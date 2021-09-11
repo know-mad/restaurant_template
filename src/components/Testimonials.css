@@ -64,7 +64,6 @@
     width: 100%;
     padding: 2em;
     color: #fff;
-    /* font-size: 1.25rem; */
     /* background-color: green; */
 }
 
@@ -104,4 +103,74 @@
     font-size: 0.75rem;
     border-radius: 5rem;
     background: #FFC700;
+}
+
+@media (min-width: 768px) {
+    .testimonial-photo {
+        height: 90%;
+        width: 70%;
+    }
+
+    .testimonial-cta-buttons-container {
+        justify-content: space-evenly;
+    }
+
+    .google-review__button  {
+        font-size: 1rem;
+    }
+
+    .yelp-review__button  {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .testimonials-container {
+        height: 30em;
+    }
+    
+    .testimonial-photo {
+        height: 90%;
+        width: 40%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .testimonial-photo {
+        height: 90%;
+        width: 25%;
+    }
+
+    .testimonials-right {
+        padding: 0 5em 0;
+    }
+}
+
+@media (min-width: 1920px) {
+    .testimonials-container {
+        height: 45em;
+    }
+
+    .testimonial-photo {
+        height: 90%;
+        width: 25%;
+    }
+
+    .testimonials-right {
+        padding: 0 30em 0;
+    }
+
+    .testimonials-right p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 2560px) {
+    .testimonial-photo {
+        width: 20%;
+    }
+
+    .testimonials-right {
+        font-size: 1.35rem;
+    }
 }

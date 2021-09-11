@@ -34,7 +34,7 @@ const Form = () => (
   />
   <textarea
     name='message'
-    placeholder='Brief project description'
+    placeholder='Brief event description'
   />
   <button type='submit'>send</button>
 </form>

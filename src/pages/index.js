@@ -27,7 +27,7 @@ const IndexPage = () => (
           <source src={video} type="video/mp4"/>
         </video>
         <div className='hero-overlay'>
-            <h1>WE SERVE FOOD WITH PURPOSE</h1>
+            <h1 style={{marginBottom: `0.25em`}}>WE SERVE FOOD WITH PURPOSE</h1>
             <p style={{color: `#fff`, marginTop: `0`}}>
               Our food is fresh and healthy. Reflecting our dedication 
               <br/>
@@ -53,7 +53,7 @@ const IndexPage = () => (
     </section>
     
     <section>
-      <div style={{marginTop: `4em`}} className='info-section'>
+      <div className='info-section'>
         <div className='info-section-top'>
           <p>[subheading]</p>
           <p>Welcome to <span style={{color: `#DF2332`}}>[Restaurant]</span></p>
@@ -152,7 +152,7 @@ const IndexPage = () => (
     </section>
 
     <section>
-      <div style={{marginTop: `4em`}} className='info-section'>
+      <div className='info-section'>
         <div className='info-section-top'>
           <p>WE CATER!!!</p>
           <p>Let <span style={{color: `#DF2332`}}>[Restaurant]</span> cater your next event</p>

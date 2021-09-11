@@ -6,7 +6,7 @@
   text-align: center;
   /* background-color: #F4DE17; */
   border: 1px solid #DF2332;
-  height: 27em;
+  /* height: 27em; */
   /* width: 27em; */
   width: 95%;
 }
@@ -39,7 +39,7 @@ button {
   color: #fff;
   border-radius: 100px;
   cursor: pointer;
-  /* margin: 0.5em; */
+  margin-bottom: 0.5em;
   /* font-weight: bold; */
 }
 
@@ -60,4 +60,34 @@ textarea {
   opacity: 1; /* Firefox */
 }
 
-/* /// Media Queries /// */
+@media (min-width: 768px) {
+  .form-container {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .form-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .form-container {
+    width: 80%;
+    align-self: flex-end;
+  }
+  
+}
+
+@media (min-width: 1920px) {
+  .form-container {
+    width: 60%;
+  }
+}
+
+@media (min-width: 2560px) {
+  .form-container {
+    width: 45%;
+  }
+}
