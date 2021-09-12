@@ -6,11 +6,11 @@ import './index.css'
 const Catering = () => {
     return (
         <Layout>
-            <section style={{marginTop: `9em`, marginBottom: `3em`}}>
-            <div style={{marginTop: `4em`}} className='info-section'>
+            <section>
+            <div className='info-section'>
                 <div className='info-section-top'>
-                <p>WE CATER!!!</p>
-                <p style={{fontSize: `4rem`, fontWeight: `bold`}}>Let <span style={{color: `#DF2332`}}>[Restaurant]</span> cater your next event</p>
+                <h3>WE CATER!!!</h3>
+                <p>Let <span style={{color: `#DF2332`}}>[Restaurant]</span> cater your next event</p>
                 </div>
                 <div className='info-section-bottom'>
                 <div className='info-section-bottom-left'>

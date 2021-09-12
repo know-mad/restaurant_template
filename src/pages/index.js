@@ -55,7 +55,7 @@ const IndexPage = () => (
     <section>
       <div className='info-section'>
         <div className='info-section-top'>
-          <p>[subheading]</p>
+          <h3>[subheading]</h3>
           <p>Welcome to <span style={{color: `#DF2332`}}>[Restaurant]</span></p>
         </div>
         <div className='info-section-bottom'>
@@ -104,11 +104,11 @@ const IndexPage = () => (
         <div className='info-section-bottom'>
           <div className='info-section-bottom-left'>
             <p>Conveniently located at:</p>
-            <p style={{fontWeight: `bold`}}>7690 Dorchester BLVD.
+            <p style={{fontWeight: `bold`}}>7690 Anywhere BLVD.
             <br/>
             Suite #104
             <br/>
-            Hanover, MD 21076
+            Your City, STATE 00001
             </p>
             <p>
             Best yet, many of our menu items fall under 700 calories and can be customized 
@@ -154,8 +154,8 @@ const IndexPage = () => (
     <section>
       <div className='info-section'>
         <div className='info-section-top'>
-          <p>WE CATER!!!</p>
-          <p>Let <span style={{color: `#DF2332`}}>[Restaurant]</span> cater your next event</p>
+          <h3>WE CATER!!!</h3>
+          <p>Let <span style={{color: `#DF2332`}}>[Restaurant]</span> cater your next event!</p>
         </div>
         <div className='info-section-bottom'>
           <div className='info-section-bottom-left'>

@@ -16,9 +16,7 @@
     display: flex;
     flex-direction: row;
     height: 45em;
-
     width: 100%;
-    margin-top: 4em;
     /* background-color: red; */
 }
 
@@ -86,8 +84,12 @@
     text-align: center;
   }
 
+  .info-section-top h3 {
+    margin: 0;
+  }
+
   .info-section-top p {
-      font-size: 1.5rem;
+      font-size: 1.75rem;
       font-weight: bold;
       margin: 0;
   }
@@ -128,6 +130,12 @@
 }
 
 .info-section-bottom-right img {
+    height: 90%;
+    width: 95%;
+    box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.5);
+}
+
+.info-section-bottom-left img {
     height: 90%;
     width: 95%;
     box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.5);
@@ -230,7 +238,7 @@
 
 @media (min-width: 1024px) {
     .hero {
-        height: 35em;
+        height: 28em;
     }
 
     .hero-overlay {
@@ -295,7 +303,7 @@
         position: absolute;
         z-index: 0;
         width: 100% !important ;
-        height: 35em !important;
+        height: 28em !important;
         object-fit: cover; 
         /* display: inherit;  */
     }
@@ -303,7 +311,7 @@
 
 @media (min-width: 1440px) {
     .hero {
-        height: 42em;
+        height: 38em;
     }
 
     .info-section-bottom-right img {
@@ -314,8 +322,12 @@
         width: 80%;
     }
 
+    .social-banner {
+        margin: 3em 0 3em;
+    }
+
     .video {
-        height: 42em !important;
+        height: 38em !important;
     }
 }
 
@@ -330,6 +342,15 @@
 
     .hero-overlay p {
         font-size: 1.75rem;
+    }
+
+    .info-section-top h3 {
+        margin: 0;
+        font-size: 2rem;
+    }
+    
+    .info-section-top p {
+        font-size: 2.5rem;
     }
 
     .info-section-bottom-left {
@@ -354,6 +375,41 @@
         height: 52em !important;
     }
 
+}
+
+@media (min-width: 2560px) {
+    .google-link {
+        font-size: 1.5rem;
+    }
+
+    .hero{
+        height: 65em;
+    }
+
+    .hero-link {
+        font-size: 1.5rem;
+    }
+
+    .hero-overlay h1 {
+        font-size: 4rem;
+    }
+
+    .hero-overlay p {
+        font-size: 2.75rem;
+    }
+
+    .info-section-top h3 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+    
+    .info-section-top p {
+        font-size: 3rem;
+    }
+
+    .video {
+        height: 65em !important;
+    }
 }
 
 

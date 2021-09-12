@@ -32,7 +32,8 @@ footer {
   display: flex;
   flex-direction: column;
   width: 100%;
-  overflow: hidden;  
+  overflow: hidden;
+  padding-top: 5em;  
 }
 
 .footer-top {
@@ -70,6 +71,43 @@ footer {
   margin: 0.25em;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
+  .container {
+    padding-top: 8em;  
+  }
 
+  footer {
+    height: 25em
+  }
+
+  .footer-top {
+    flex-direction: row;
+  }
+
+  .footer-top__info {
+    width: 33%;
+    height: 100%;
+    justify-content: flex-start;
+    padding: 2em;
+  }
+
+  .footer-bottom p {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container {
+    padding-top: 10em;  
+  }
+
+  .footer-top__info {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .container {
+    padding-top: 12em;  
+  }
 }

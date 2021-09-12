@@ -4,10 +4,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* background-color: #F4DE17; */
   border: 1px solid #DF2332;
-  /* height: 27em; */
-  /* width: 27em; */
   width: 95%;
 }
 
@@ -40,12 +37,10 @@ button {
   border-radius: 100px;
   cursor: pointer;
   margin-bottom: 0.5em;
-  /* font-weight: bold; */
 }
 
 textarea {
   font-size: 1rem;
-  /* height: 300px; */
   height: 250px;
   width: 100%;
   resize: none;
@@ -81,8 +76,14 @@ textarea {
 }
 
 @media (min-width: 1920px) {
+  button {
+    height: 3em;
+  }
+
   .form-container {
     width: 60%;
+    align-self: center;
+    font-size: 2rem;
   }
 }
 

@@ -173,4 +173,12 @@
     .testimonials-right {
         font-size: 1.35rem;
     }
+
+    .google-review__button  {
+        font-size: 1.5rem;
+    }
+
+    .yelp-review__button  {
+        font-size: 1.5rem;
+    }
 }
