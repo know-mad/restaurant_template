@@ -22,7 +22,7 @@ const Header = () => {
           <div className='nav-top-right'>
             <Link to='/' activeStyle={{color: `#FFC700`, textDecoration: `underline`}} style={{color: `#fff`}}>home</Link>
             <Link to='/catering/' activeStyle={{color: `#FFC700`, textDecoration: `underline`}} style={{color: `#fff`}}>catering</Link>
-            <Link to='/order-online/' activeStyle={{color: `#FFC700`, textDecoration: `underline`}} style={{color: `#fff`}}>menu / order online</Link>
+            <Link to='/order-online/' activeStyle={{color: `#FFC700`, textDecoration: `underline`}} style={{color: `#fff`}}>menu</Link>
             <Link to='/checkout/' className='cart'>
               <div style={{display: cartCount > 0 ? `inherit` : `none`}} className='cart-items'>
                 <p>{cartCount}</p>
@@ -52,7 +52,7 @@ const Header = () => {
         <div style={{display: nav ? `flex` : `none`}} className='mobile-nav-container-bottom' >
             <Link to='/' activeStyle={{color: `#FFC700`, textDecoration: `underline`}} style={{color: `#fff`}}>home</Link>
             <Link to='/catering/' activeStyle={{color: `#FFC700`, textDecoration: `underline`}} style={{color: `#fff`}}>catering</Link>
-            <Link to='/order-online/' activeStyle={{color: `#FFC700`, textDecoration: `underline`}} style={{color: `#fff`}}>menu / order online</Link>
+            <Link to='/order-online/' activeStyle={{color: `#FFC700`, textDecoration: `underline`}} style={{color: `#fff`}}>menu</Link>
             <Link to='/checkout/' className='cart'>
               <div style={{display: cartCount > 0 ? `inherit` : `none`}} className='cart-items'>
                 <p>{cartCount}</p>

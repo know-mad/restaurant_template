@@ -101,13 +101,32 @@ footer {
     padding-top: 10em;  
   }
 
+  .footer-top {
+    height: 85%;
+  }
+
   .footer-top__info {
-    font-size: 1.15rem;
+    font-size: 1.35rem;
+    padding: 3em;
+  }
+
+  .footer-bottom {
+    height: 15%;
+  }
+
+  .footer-bottom p {
+    font-size: 1.25rem;
+  }
+
+  footer {
+    height: 35em;
   }
 }
 
 @media (min-width: 2560px) {
+
   .container {
     padding-top: 12em;  
   }
+
 }

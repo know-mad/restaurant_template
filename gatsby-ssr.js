@@ -7,11 +7,12 @@
 // You can delete this file if you're not using it
 
 import React from "react"
-import { CartProvider} from "use-shopping-cart"
-import { loadStripe } from '@stripe/stripe-js'
+import { CartProvider } from "use-shopping-cart"
+// import { loadStripe } from '@stripe/stripe-js'
 // const stripePromise = loadStripe(process.env.GATSBY_STRIPE_PUBLISHABLE_KEY)
 
 export const wrapRootElement = ({ element }) => (
+    // Create a customer provider to get customer details (phone number) into metadata field
     <CartProvider
     mode='payment'
     cartMode="client-only"

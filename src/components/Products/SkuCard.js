@@ -35,7 +35,7 @@ const SkuCard = ({
             </div>
             <div className='item-description'>
                 <p style={{fontWeight: `bold`}}>{unitName}</p>
-                <p style={{fontSize: `0.75rem`}}>{description}</p>
+                <p>{description}</p>
             </div>
             <div className='add-to-cart'>
                 <form onSubmit={handleSubmit}>
