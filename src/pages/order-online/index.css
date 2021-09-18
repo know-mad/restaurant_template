@@ -25,18 +25,25 @@
 
 .category__selector-top {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 4em;
+    /* height: 4em; */
     width: 100%;
     text-align: center;
-    /* background: gold; */
+}
+
+.category__selector-top h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
 }
 
 .category__selector-top p {
-    font-size: 2rem;
-    font-weight: bold;
+    margin: 0.5em;
+    color: #DF2332;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 .category__selector-bottom {
@@ -94,7 +101,11 @@
         font-size: 2rem;
     }
 
-    .category__selector-top p {
+    .category__selector-top h3 {
         font-size: 3rem;
+    }
+
+    .category__selector-top p {
+        font-size: 1.75rem;
     }
 }

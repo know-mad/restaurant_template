@@ -17,23 +17,13 @@ const categories = [
 
 const OrderOnline = ({data}) => {
     const [ label, setLabel ] = useState(categories[0])
-    
-
-    // const formatPrice = (amount, currency) => {
-    //     let price = (amount / 100).toFixed(2)
-    //     let numberFormat = new Intl.NumberFormat(["en-US"], {
-    //       style: "currency",
-    //       currency: currency,
-    //       currencyDisplay: "symbol",
-    //     })
-    //     return numberFormat.format(price)
-    //   }
 
     return (
         <Layout>
             <div className='menu-page-container'>
                 <div className='category__selector-top'>
-                    <p>Please Select A Category</p>
+                    <h3>Please Select A Category</h3>
+                    <p>Note: Online orders are for local pickup only. For delivery please use our delivery partners.</p>
                 </div>
                 <div className='category__selector-bottom'>
                     {
