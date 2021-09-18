@@ -1,7 +1,6 @@
 .testimonials-container {
   display: flex;
   flex-direction: column;
-  height: 50em;
   width: 100%;
 }
 
@@ -10,12 +9,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50%;
   width: 100%;
 }
 
 .testimonial-photo {
-  height: 55%;
+  height: 13em;
   width: 85%;
   box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.5);
 }
@@ -47,7 +45,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 50%;
   width: 100%;
   padding: 2em;
   color: #fff;
@@ -55,9 +52,8 @@
 
 .testimonial-cta-buttons-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  height: 4em;
   width: 100%;
 }
 
@@ -70,10 +66,10 @@
   color: #fff;
   height: 3em;
   width: 15em;
-  font-size: 0.75rem;
+  font-size: 1rem;
   border-radius: 5rem;
   background: #000;
-  margin-right: 2em;
+  margin: 1em;
 }
 
 .google-review__button {
@@ -85,14 +81,15 @@
   color: #000;
   height: 3em;
   width: 15em;
-  font-size: 0.75rem;
+  font-size: 1rem;
   border-radius: 5rem;
   background: #ffc700;
+  margin: 1em;
 }
 
 @media (min-width: 768px) {
   .testimonial-photo {
-    height: 90%;
+    height: 20em;
     width: 70%;
   }
 
@@ -110,19 +107,15 @@
 }
 
 @media (min-width: 1024px) {
-  .testimonials-container {
-    height: 30em;
-  }
-
-  .testimonial-photo {
-    height: 90%;
+.testimonial-photo {
+    height: 18em;
     width: 40%;
   }
 }
 
 @media (min-width: 1440px) {
   .testimonial-photo {
-    height: 90%;
+    height: 15em;
     width: 25%;
   }
 
@@ -132,12 +125,8 @@
 }
 
 @media (min-width: 1920px) {
-  .testimonials-container {
-    height: 45em;
-  }
-
   .testimonial-photo {
-    height: 90%;
+    height: 19em;
     width: 25%;
   }
 

@@ -26,7 +26,7 @@
 .add-to-cart button {
   height: 90%;
   width: 40%;
-  font-size: 0.85rem;
+  font-size: 0.65rem;
   margin: 0;
   font-weight: 400;
   border-radius: 0.25em;
@@ -100,9 +100,17 @@
   .menu-item-container {
     width: 40%;
   }
+
+  .add-to-cart button {
+    font-size: 0.85rem;
+  }
 }
 
 @media (min-width: 1920px) {
+  .add-to-cart button {
+    font-size: 1rem;
+  }
+
   .menu-item-container {
     height: 15em;
   }
