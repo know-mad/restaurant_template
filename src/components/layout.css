@@ -8,10 +8,10 @@ yellow: #FFC700
   box-sizing: border-box;
 }
 
-
-html, body {
+html,
+body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
 }
 
@@ -33,7 +33,7 @@ footer {
   flex-direction: column;
   width: 100%;
   overflow: hidden;
-  padding-top: 5em;  
+  padding-top: 5em;
 }
 
 .footer-top {
@@ -53,7 +53,7 @@ footer {
 
 .footer-top__info h3 {
   text-decoration: underline;
-  color: #FFC700;
+  color: #ffc700;
 }
 
 .footer-bottom {
@@ -64,7 +64,7 @@ footer {
   height: 10%;
   width: 100%;
   text-align: center;
-  background: #DF2332;
+  background: #df2332;
 }
 
 .footer-bottom p {
@@ -73,11 +73,11 @@ footer {
 
 @media (min-width: 1024px) {
   .container {
-    padding-top: 8em;  
+    padding-top: 8em;
   }
 
   footer {
-    height: 25em
+    height: 25em;
   }
 
   .footer-top {
@@ -98,7 +98,7 @@ footer {
 
 @media (min-width: 1920px) {
   .container {
-    padding-top: 10em;  
+    padding-top: 10em;
   }
 
   .footer-top {
@@ -124,9 +124,7 @@ footer {
 }
 
 @media (min-width: 2560px) {
-
   .container {
-    padding-top: 12em;  
+    padding-top: 12em;
   }
-
 }

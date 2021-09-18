@@ -1,184 +1,169 @@
 .testimonials-container {
-    display: flex;
-    /* flex-direction: row; */
-    flex-direction: column;
-    /* height: 100%; */
-    height: 50em;
-    width: 100%;
-    /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  height: 50em;
+  width: 100%;
 }
 
 .testimonials-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* height: 100%;
-    width: 50%; */
-    height: 50%;
-    width: 100%;
-    /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
 }
 
 .testimonial-photo {
-    /* height: 20em;
-    width: 30em; */
-    height: 55%;
-    width: 85%;
-    box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.5);
-    /* background-color: grey;
-    border: 1px solid #000; */
+  height: 55%;
+  width: 85%;
+  box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.5);
 }
 
 .testimonial-photo img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .pagination-dots {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 1.5em;
-    width: 6em;
-    margin: 1em;
-    /* background-color: green; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.5em;
+  width: 6em;
+  margin: 1em;
 }
 
 .dot {
-    height: 1em;
-    width: 1em;
-    border-radius: 5em;
-    border: 1px solid #000;
+  height: 1em;
+  width: 1em;
+  border-radius: 5em;
+  border: 1px solid #000;
 }
 
 .testimonials-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    /* height: 100%;
-    width: 50%; */
-    height: 50%;
-    width: 100%;
-    padding: 2em;
-    color: #fff;
-    /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  padding: 2em;
+  color: #fff;
 }
 
 .testimonial-cta-buttons-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 4em;
-    width: 100%;
-    /* background-color: yellow; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 4em;
+  width: 100%;
 }
 
-.yelp-review__button  {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: #fff;
-    height: 3em;
-    width: 15em;
-    font-size: 0.75rem;
-    border-radius: 5rem;
-    background: #000;
-    margin-right: 2em;
+.yelp-review__button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  height: 3em;
+  width: 15em;
+  font-size: 0.75rem;
+  border-radius: 5rem;
+  background: #000;
+  margin-right: 2em;
 }
 
-.google-review__button  {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: #000;
-    height: 3em;
-    width: 15em;
-    font-size: 0.75rem;
-    border-radius: 5rem;
-    background: #FFC700;
+.google-review__button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  height: 3em;
+  width: 15em;
+  font-size: 0.75rem;
+  border-radius: 5rem;
+  background: #ffc700;
 }
 
 @media (min-width: 768px) {
-    .testimonial-photo {
-        height: 90%;
-        width: 70%;
-    }
+  .testimonial-photo {
+    height: 90%;
+    width: 70%;
+  }
 
-    .testimonial-cta-buttons-container {
-        justify-content: space-evenly;
-    }
+  .testimonial-cta-buttons-container {
+    justify-content: space-evenly;
+  }
 
-    .google-review__button  {
-        font-size: 1rem;
-    }
+  .google-review__button {
+    font-size: 1rem;
+  }
 
-    .yelp-review__button  {
-        font-size: 1rem;
-    }
+  .yelp-review__button {
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 1024px) {
-    .testimonials-container {
-        height: 30em;
-    }
-    
-    .testimonial-photo {
-        height: 90%;
-        width: 40%;
-    }
+  .testimonials-container {
+    height: 30em;
+  }
+
+  .testimonial-photo {
+    height: 90%;
+    width: 40%;
+  }
 }
 
 @media (min-width: 1440px) {
-    .testimonial-photo {
-        height: 90%;
-        width: 25%;
-    }
+  .testimonial-photo {
+    height: 90%;
+    width: 25%;
+  }
 
-    .testimonials-right {
-        padding: 0 5em 0;
-    }
+  .testimonials-right {
+    padding: 0 5em 0;
+  }
 }
 
 @media (min-width: 1920px) {
-    .testimonials-container {
-        height: 45em;
-    }
+  .testimonials-container {
+    height: 45em;
+  }
 
-    .testimonial-photo {
-        height: 90%;
-        width: 25%;
-    }
+  .testimonial-photo {
+    height: 90%;
+    width: 25%;
+  }
 
-    .testimonials-right {
-        padding: 0 30em 0;
-    }
+  .testimonials-right {
+    padding: 0 30em 0;
+  }
 
-    .testimonials-right p {
-        font-size: 1.5rem;
-    }
+  .testimonials-right p {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 2560px) {
-    .testimonial-photo {
-        width: 20%;
-    }
+  .testimonial-photo {
+    width: 20%;
+  }
 
-    .testimonials-right {
-        font-size: 1.35rem;
-    }
+  .testimonials-right {
+    font-size: 1.35rem;
+  }
 
-    .google-review__button  {
-        font-size: 1.5rem;
-    }
+  .google-review__button {
+    font-size: 1.5rem;
+  }
 
-    .yelp-review__button  {
-        font-size: 1.5rem;
-    }
+  .yelp-review__button {
+    font-size: 1.5rem;
+  }
 }

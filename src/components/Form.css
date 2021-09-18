@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid #DF2332;
+  border: 1px solid #df2332;
   width: 95%;
 }
 
@@ -21,7 +21,7 @@ input {
   height: 40px;
   width: 100%;
   font-size: 1rem;
-  border: 1px solid #DF2332;
+  border: 1px solid #df2332;
   margin-bottom: 5px;
   color: #000000;
 }
@@ -31,8 +31,8 @@ button {
   width: 50%;
   text-align: center;
   font-size: 1rem;
-  border: 1px solid #DF2332;
-  background-color: #DF2332;
+  border: 1px solid #df2332;
+  background-color: #df2332;
   color: #fff;
   border-radius: 100px;
   cursor: pointer;
@@ -44,14 +44,14 @@ textarea {
   height: 250px;
   width: 100%;
   resize: none;
-  border: 1px solid #DF2332;
+  border: 1px solid #df2332;
   color: #000000;
   margin-bottom: 1em;
 }
 
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #8A8A8A;
+  color: #8a8a8a;
   opacity: 1; /* Firefox */
 }
 
@@ -72,7 +72,6 @@ textarea {
     width: 80%;
     align-self: flex-end;
   }
-  
 }
 
 @media (min-width: 1920px) {

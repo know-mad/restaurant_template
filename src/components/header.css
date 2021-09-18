@@ -4,8 +4,6 @@
     justify-content: flex-end;
     height: 2.5em;
     width: 2.5em;
-    /* background: gold; */
-    /* margin-right: 2em; */
     background-image: url('../images/cart.svg');
     background-size: 85% auto;
     background-repeat: no-repeat;
@@ -32,8 +30,6 @@
 .mobile-nav-container {
     display: flex;
     flex-direction: column;
-    /* height: 20em; */
-    /* height: 5em; */
     width: 100%;
     position: fixed;
     top: 0;
@@ -48,26 +44,21 @@
     justify-content: space-between;
     align-items: center;
     padding: 1em;
-    /* height: 30%; */
     height: 100%;
     width: 100%;
-    /* background: magenta; */
 }
 
 .mobile-nav-container-bottom {
-    /* display: flex; */
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     height: 70%;
     width: 100%;
-    /* background: #000; */
 }
 
 .hamburger-menu {
     height: 3em;
     width: 3em;
-    /* background: gold; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80% auto;
@@ -113,7 +104,6 @@
     height: 100%;
     width: 70%;
     color: #fff;
-    /* padding-right: 2em; */
 }
 
 .nav-top-right a {
@@ -141,7 +131,6 @@
 
 .nav-bottom-left p {
     font-size: 1rem;
-    /* font-weight: bold; */
     padding-left: 2em;
     padding-right: 2em;
 }
@@ -164,7 +153,6 @@
 
 .nav-bottom-right p {
     font-size: 1rem;
-    /* font-weight: bold; */
     padding-left: 2em;
     padding-right: 2em;
 }
