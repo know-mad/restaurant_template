@@ -74,6 +74,14 @@ const Header = () => {
           className="mobile-nav-container-top"
         >
           <p>[logo]</p>
+          <Link to="/checkout/" className="cart">
+            <div
+              style={{ display: cartCount > 0 ? `inherit` : `none` }}
+              className="cart-items"
+            >
+              <p>{cartCount}</p>
+            </div>
+          </Link>
           <div
             onClick={() => setNav(!nav)}
             style={{
@@ -108,14 +116,6 @@ const Header = () => {
             style={{ color: `#fff` }}
           >
             menu
-          </Link>
-          <Link to="/checkout/" className="cart">
-            <div
-              style={{ display: cartCount > 0 ? `inherit` : `none` }}
-              className="cart-items"
-            >
-              <p>{cartCount}</p>
-            </div>
           </Link>
         </div>
       </div>
