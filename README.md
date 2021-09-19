@@ -31,7 +31,7 @@ Please note that I did not build this site with the intention of it being a star
 
 
 ## Installation and Setup
-Before getting started on configuring the client side, please ensure you've set up your Stripe account properly and added products via the Stripe Dashboard in order to have products/items to fetch for testing. Reference the Stripe [documentation] for an in-depth view of how to get this accomplished
+Before getting started on configuring the client side, please ensure you've set up your Stripe account properly and added products via the Stripe Dashboard in order to have products/items to fetch for testing. Reference the Gatsby [documentation] for a detailed tutorial on integrating Stripe with a Gatsby site.
 
 
 1. Install the Gatsby CLI
@@ -72,4 +72,4 @@ Deployed site is [here]
 [davidvelez.io]: http://davidvelez.io
 [Gatsby docs]: https://www.gatsbyjs.com/docs/
 [Stripe]: https://stripe.com/
-[documentation]: https://stripe.com/docs/payments
+[documentation]: https://www.gatsbyjs.com/tutorial/ecommerce-tutorial/
