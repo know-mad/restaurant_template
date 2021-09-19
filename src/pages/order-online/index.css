@@ -107,7 +107,7 @@
 }
 
 @media (min-width: 1024px) {
-  .delivery-partners-container {
+  .delivery-partners__links {
     display: none;
   }
 }
