@@ -4,6 +4,9 @@ import Layout from "../../components/layout"
 import SkuCard from "../../components/Products/SkuCard"
 import { graphql } from "gatsby"
 import { formatCurrencyString } from "use-shopping-cart"
+import doordash from "../../images/doordash-logo-variant.svg"
+import uber from "../../images/uber-eats-logo-variant.svg"
+import grubhub from "../../images/grubhub-logo-variant.svg"
 
 const categories = [`Entrees`, `Desserts`, `Drinks`, `Lunch Combo`]
 
@@ -15,10 +18,17 @@ const OrderOnline = ({ data }) => {
       <div className="menu-page-container">
         <div className="category__selector-top">
           <h3>Please Select A Category</h3>
+          <div className="delivery-partners-container">
           <p>
             Note: Online orders are for local pickup only. For delivery please
             use our delivery partners.
           </p>
+          <div className="delivery-partners__links">
+            <img src={doordash} alt='stuff' />
+            <img src={uber} alt='stuff' />
+            <img style={{width: `20%`}} src={grubhub} alt='stuff' />
+          </div>
+          </div>
         </div>
         <div className="category__selector-bottom">
           {categories.map((category, index) => (

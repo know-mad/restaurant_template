@@ -8,7 +8,7 @@ const SuccessPage = () => {
 
   useEffect(() => {
     clearCart()
-  }, [])
+  }, [clearCart])
 
   return (
     <Layout>
