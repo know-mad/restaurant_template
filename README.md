@@ -3,44 +3,38 @@
 </p>
 
 <h2 align='center'>
-Restaurant | Cafe Website
+Restaurant Online Payment Solution 
 </h2>
 
 ## Objective
-Objective was to build a blog using the React based platform Gatsby.js as the static site generator and [Contentful] as the content management system (CMS). 
-The  blog website is built as a dynamic site for changing content and is designed to query for content from the CMS via GraphQL. The blog is search engine optimized with on-page SEO and each page targets specific keywords used for ranking on google search. The website also features a dark/light theme toggler made available via the 
-React Context API
+Objective was to build an online ordering solution for small restaurants looking to offer their customers a way to order and pay for their products online using the React based platform Gatsby.js as the static site generator and [Stripe] as the content management and payment processing system. The website is built as a dynamic site for changing content and is designed to query for content from the Stripe API via GraphQL. It is search engine optimized with on-page SEO with each page targeting specific keywords used for ranking on google search as well as responsive for a cohesive look across all device platforms from mobile to 4K monitors.
 
 ## Technologies Used
 1. HTML5
 2. CSS3
 3. Javascript
 4. React.js
-5. Gatsby.js
 6. GraphQL
 7. Git
 8. Netlify
+9. Stripe
 
 ## Features
 1. Dynamic content served via CMS
-2. Programatically created pages
-3. Decoupled CMS architecture
-4. Pagintation
-5. Dark/Light theme toggle
+2. Decoupled CMS architecture
+3. Persistent Cart
+4. Payment Processing via Stripe
+
 
 ## Forking this repo
-Some people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually yes, with attribution.
+Please note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs].
 
-I value keeping my site open source, but as you all know, plagiarism is bad. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
-
-Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs].
-
-### TL;DR
-Yes, you can fork this repo. Please give me proper credit by linking back to [blog.davidvelez.io]. Thanks!
 
 ## Installation and Setup
-1. Install the Gatsby CLI
+Before getting started on configuring the client side, please ensure you've set up your Stripe account properly and added products via the Stripe Dashboard in order to have products/items to fetch for testing. Reference the Stripe [documentation] for an in-depth view of how to get this accomplished
 
+
+1. Install the Gatsby CLI
 
 ```npm i gatsby-cli```
 
@@ -66,16 +60,6 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [bl
 
 ```gatsby serve```
 
-## Color palette
-
-Color | Hex
------------- | -------------
-dark purple | ```#1F0A34```
-light purple | ```#4026B6```
-purple | ```#b007a8```
-blue | ```#0984e3```
-
-
 
 ## Author
 David Velez
@@ -84,7 +68,8 @@ David Velez
 
 Deployed site is [here]
 
-[here]: http://blog.davidvelez.io
-[blog.davidvelez.io]: http://blog.davidvelez.io
+[here]: https://peaceful-leavitt-4e6933.netlify.app
+[davidvelez.io]: http://davidvelez.io
 [Gatsby docs]: https://www.gatsbyjs.com/docs/
-[Contentful]: https://www.contentful.com/
+[Stripe]: https://stripe.com/
+[documentation]: https://stripe.com/docs/payments
